@@ -387,6 +387,27 @@ hr {color: #9b9b9b;}
   height: 60px;
 }
 
+.back_top {
+  position: absolute;
+  position: fixed;
+  right:  15px;
+  bottom: 15px;
+  z-index: 9999999999;
+  transition: var(--basic_transition);
+  cursor: pointer;
+}
+
+.back_top ion-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--primary_color);
+  transition: var(--basic_transition);
+}
+
+.back_top:hover ion-icon {
+  transform: translateY(-10px);
+}
+
 /*-----------------------------------*\
   || All KeyFrames ||
 \*-----------------------------------*/
