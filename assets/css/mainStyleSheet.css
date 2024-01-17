@@ -24,8 +24,11 @@
 }
 
 body {
+  position: relative;
   background-color: var(--bg_color);
   overflow-x: hidden;
+  overflow-y: scroll;
+  height: fit-content;
 }
 
 ::-webkit-scrollbar {
@@ -56,6 +59,7 @@ button {
 \*-----------------------------------*/
 .navbar {
   width: 100vw;
+  height: 60px;
   position: fixed;
   top: 0;
   background-color: #00000021 !important;
